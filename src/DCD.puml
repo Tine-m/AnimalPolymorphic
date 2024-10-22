@@ -1,0 +1,16 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class Animal {
+sound()
+}
+class Dog {
+sound()
+}
+class Cat {
+sound()
+}
+Animal <|-- Dog
+Animal <|-- Cat
+
+@enduml
